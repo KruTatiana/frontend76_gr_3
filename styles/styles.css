@@ -1,0 +1,77 @@
+/*Desctop styles*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/*Header*/
+
+
+/*Main*/
+.body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*Section The best video*/
+
+
+/*Section Collaborate 2M*/
+
+
+/*Section Our special*/
+
+
+/*Section Integrate*/
+
+
+/*Section Powering*/
+
+
+/*Section Flexible*/
+
+
+/*Section Testimonial*/
+
+
+/*Footer*/
+
+/*Адаптив для mobile*/
+@media screen and (max-width: 375px) {
+    
+/*Header*/
+
+
+/*Main*/
+
+.container {
+    max-width: 95%;
+    margin: 0 auto; 
+}
+
+/*Section The best video*/
+
+
+/*Section Collaborate 2M*/
+
+
+/*Section Our special*/
+
+
+/*Section Integrate*/
+
+
+/*Section Powering*/
+
+
+/*Section Flexible*/
+
+
+/*Section Testimonial*/
+
+
+/*Footer*/
+
+
+}
