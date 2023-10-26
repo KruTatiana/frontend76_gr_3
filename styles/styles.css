@@ -92,10 +92,7 @@
 .card-body-integrate {
     color: #18216D;
     padding-left: 0;
-    padding-top: 2rem;
-    width: 487px;
-    height: 307px;
-   
+    padding-top: 4rem;
 }
 
 .btn-integrate {
@@ -112,12 +109,14 @@
     padding-top: 1rem;
     font-weight: 400;
     font-size: 16px;
+    width: 487px;
 }
 
 .card-title-integrate {
     font-weight: 600;
     font-size: 36px;
-}
+    width: 471px;
+    }
 
 .col-integrate {
     width: 487px;
@@ -135,7 +134,7 @@
     max-width: 690px;
     height: 437px;
     width: 100vw;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .card-integrate {
