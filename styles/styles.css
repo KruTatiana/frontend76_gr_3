@@ -24,7 +24,123 @@
 
 
 /*Section Our special*/
+.card-img-top-column123 {
+    max-width: 72px;
+    height: 72px;
+}
 
+.btncolumn123 {
+    padding-left: 0;
+    color: #18216D;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.card-body-column123 {
+    padding-left: 0;
+    padding-right: 0;
+    color: #18216D;
+}
+
+.col-specials {
+    padding-bottom: 2rem;
+}
+
+.card-specials {
+    color: #18216D;
+}
+
+.container-specials {
+    padding-bottom: 4rem;
+}
+
+.card-title-specials {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.column123 {
+    width: 320px;
+    height:267px;
+}
+
+.card-title-spedials {
+    font-weight: 600;
+    font-size:48px;
+    line-height: 64px;
+}
+
+.card-text-spedials {
+    font-size: 16px;
+    line-height:26px;
+    font-weight: 400;
+}
+
+.card-body-column123 p {
+    opacity: 0.6;
+}
+
+.container-fluid-integrate  {
+    padding-top: 2rem;
+    background-color: #bbc8eb;
+     
+}
+
+.card-body-integrate {
+    color: #18216D;
+    padding-left: 0;
+    padding-top: 2rem;
+    width: 487px;
+    height: 307px;
+   
+}
+
+.btn-integrate {
+    width: 160px;
+    height: 52px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20.57px;
+    padding-top: 1rem;
+    margin-top: 2rem;
+}
+
+.card-text-integrate {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-title-integrate {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.col-integrate {
+    width: 487px;
+    height: 307px;
+    padding-left: 9rem;
+}
+
+.col-img-integrate {
+    margin-left: 4rem;
+    padding-left: 9rem;
+    height: 593px;
+}
+
+.img-fluid-integrate {
+    max-width: 690px;
+    height: 437px;
+    width: 100vw;
+    padding-top: 1rem;
+}
+
+.card-integrate {
+     background-color: #bbc8eb;
+}
 
 /*Section Integrate*/
 
@@ -43,6 +159,28 @@
 /*Адаптив для mobile*/
 @media screen and (max-width: 375px) {
     
+      .container-fluid-integrate  {
+        display: none;
+      }
+      .card-title-spedials {
+        font-size: 24px;
+      }
+      .card-text-spedials {
+        font-size: 14px;
+      }
+      .card-img-top-column123 {
+        width: 48px;
+        height: 48px;
+      }
+      .card-title-specials {
+        font-size: 20px;
+      }
+      .card-text-specials {
+        font-size: 14px;
+      }
+      .btncolumn123 {
+        font-size: 20px;
+      }
 /*Header*/
 
 
