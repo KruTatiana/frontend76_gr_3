@@ -23,6 +23,108 @@
 
 /*Section Collaborate 2M*/
 
+.container_collaborate_2m{
+  display: grid;
+  grid-template-columns: 980px 137px 190px;
+grid-template-rows:1fr 1fr;
+  }
+.Collaborate_text{
+  display: flex;
+  color: var(--navy-blue, #18216D);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 510px;
+  height: 150px;
+  margin-left: 215px;
+}
+.company_logo_icons{
+  display: flex;
+  padding-top: 52px;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  flex-shrink: 0;
+  margin-left: 245px;
+} 
+.company_logo_icons img{
+  margin-right: 80px;
+}
+#Airbnb{
+  width: 112.121px;
+  height: 34.882px;
+  flex-shrink: 0;
+}
+#Hubspot{
+  width: 104.646px;
+  height: 29.899px;
+  flex-shrink: 0;
+}
+#Google{
+  width: 104.646px;
+  height: 34.882px;
+  flex-shrink: 0;
+}
+#Microsoft{
+  width: 151.987px;
+  height: 32.391px;
+  flex-shrink: 0;
+}
+#Walmart{
+  width: 138.283px;
+  height: 32.391px;
+  flex-shrink: 0;
+}
+#FedEx{
+  width: 99.663px;
+  height: 29.899px;
+  flex-shrink: 0;
+}
+.active_downloads{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.active_downloads_text{
+  color: var(--navy-blue, #18216D);
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 116.667% */
+  letter-spacing: -1px;
+}
+.Rating{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  padding-left: 93px;
+}
+.Rating_number{
+  color: var(--navy-blue, #18216D);
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 116.667% */
+  letter-spacing: -1px;
+}
+.bottom_text{
+  color: var(--navy-blue, #18216D);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
 
 /*Section Our special*/
 .card-img-top-column123 {
@@ -496,6 +598,81 @@
 
 
 /*Section Collaborate 2M*/
+.container_collaborate_2m{
+  grid-template-columns: 186px 186px;
+grid-template-rows: 150px 80px 80px;
+  }
+.Collaborate_text{
+  font-size: 20px;
+  margin-left: 24px;
+  padding-left: 0px;
+  width: 330px;
+  height: 90px;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.active_downloads{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+.Rating{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-items: flex-start;
+  margin-left: 65px;
+  padding-left: 0px;
+}
+.Rating_number{
+  font-size: 40px;
+}
+.bottom_text{
+  font-size: 10px;
+}
+.active_downloads_text{
+  font-size: 40px;
+}
+.heads img{
+  width: 73%;
+  height: 45%;
+}
+.stars img{
+  width: 63%;
+  height: 45%;
+}
+.company_logo_icons{
+  margin-left: 22px;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  padding-top: 65px;
+} 
+.company_logo_icons img{
+  margin-right: 36.5px;
+}
+#Airbnb{
+  width: 51.429px;
+  height: 16px;
+}
+#Hubspot{
+  width: 48px;
+  height: 13.714px;
+}
+#Google{
+  width: 48px;
+  height: 16px;
+  
+}
+#Microsoft{
+  width: 69.714px;
+  height: 14.857px;
+}
+#Walmart{
+  display: none;
+}
+#FedEx{
+  display: none;
+}
 
 
 /*Section Our special*/
