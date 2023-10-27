@@ -186,64 +186,6 @@ grid-template-rows:1fr 1fr;
     opacity: 0.6;
 }
 
-.container-fluid-integrate  {
-    padding-top: 2rem;
-    background-color: #bbc8eb;
-     
-}
-
-.card-body-integrate {
-    color: #18216D;
-    padding-left: 0;
-    padding-top: 4rem;
-}
-
-.btn-integrate {
-    width: 160px;
-    height: 52px;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 20.57px;
-    padding-top: 1rem;
-    margin-top: 2rem;
-}
-
-.card-text-integrate {
-    padding-top: 1rem;
-    font-weight: 400;
-    font-size: 16px;
-    width: 487px;
-}
-
-.card-title-integrate {
-    font-weight: 600;
-    font-size: 36px;
-    width: 471px;
-    }
-
-.col-integrate {
-    width: 487px;
-    height: 307px;
-    padding-left: 9rem;
-}
-
-.col-img-integrate {
-    margin-left: 4rem;
-    padding-left: 9rem;
-    height: 593px;
-}
-
-.img-fluid-integrate {
-    max-width: 690px;
-    height: 437px;
-    width: 100vw;
-    padding-top: 2rem;
-}
-
-.card-integrate {
-     background-color: #bbc8eb;
-}
-
 /*Section Integrate*/
 
 .container-fluid-integrate  {
