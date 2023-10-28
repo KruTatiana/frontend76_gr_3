@@ -186,6 +186,8 @@ grid-template-rows:1fr 1fr;
     opacity: 0.6;
 }
 
+/*Section Integrate*/
+
 .container-fluid-integrate  {
     padding-top: 2rem;
     background-color: #bbc8eb;
@@ -243,9 +245,6 @@ grid-template-rows:1fr 1fr;
 .card-integrate {
      background-color: #bbc8eb;
 }
-
-/*Section Integrate*/
-
 
 /*Section Powering*/
 
