@@ -250,6 +250,94 @@ grid-template-rows:1fr 1fr;
 /*Section Powering*/
 
 
+.man-block{
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  margin-bottom: 189px;
+  color: #18216D;
+}
+
+.img-section{
+  display: flex;
+}
+
+.man{
+  width: 400px;
+  height: 450px;
+}
+
+.man-textarea .man-title{
+  width: 496px;
+  height: 96px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.man-textarea .man-text{
+  width: 446px;
+  height: 90px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.img-section .points{
+  width: 106px;
+  height: 102px;
+  position: relative;
+  bottom: -380px;
+  left: 50px;
+  z-index: -1;
+}
+
+.img-section .message{
+  width: 184px;
+  height: 150px;
+  position: relative;
+  bottom: -360px;
+  right: 100px;
+}
+
+.man-ratio{
+  display: flex;
+  margin-top: 26px;
+}
+
+.man-ratio .checkmark{
+  width: 19.973px;
+  height: 19.97px;
+}
+
+.man-ratio:first-child{
+  margin-top: 30px;
+}
+
+.man-ratio .checkmark-text{
+  padding-left: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px; 
+}
+
+.man-btn{
+  display: flex;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: #005FEC;
+  color: #fff;
+  width: 164px;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+  margin-top: 52px;
+}
+
+.man-btn:hover{
+  background-color: #0a58ca;
+  transform: scale(1.2);
+}
+
 /*Section Flexible*/
 
 .flexible {
