@@ -199,18 +199,21 @@ min-width: 80vw;
 /*Section Integrate*/
 
 .container-fluid-integrate  {
-    padding-top: 2rem;
+    padding-top: 4rem;
     background-color: #bbc8eb;
-     
-}
-
-.card-body-integrate {
+    /*min-width: 600px;*/
+    /*height: 40vw;*/
+  }
+  
+  .card-body-integrate {
     color: #18216D;
     padding-left: 0;
     padding-top: 4rem;
-}
-
-.btn-integrate {
+    height: 30%;
+    background-color: #bbc8eb;
+  }
+  
+  .btn-integrate {
     width: 160px;
     height: 52px;
     font-weight: 500;
@@ -218,43 +221,61 @@ min-width: 80vw;
     line-height: 20.57px;
     padding-top: 1rem;
     margin-top: 2rem;
-}
-
-.card-text-integrate {
+  }
+  
+  .card-text-integrate {
     padding-top: 1rem;
     font-weight: 400;
     font-size: 16px;
-    width: 487px;
-}
-
-.card-title-integrate {
+    max-width: 487px;
+  }
+  
+  .card-title-integrate {
     font-weight: 600;
     font-size: 36px;
-    width: 471px;
+    max-width: 471px;
     }
-
-.col-integrate {
-    width: 487px;
-    height: 307px;
-    padding-left: 9rem;
-}
-
-.col-img-integrate {
-    margin-left: 4rem;
-    padding-left: 9rem;
-    height: 593px;
-}
-
-.img-fluid-integrate {
-    max-width: 690px;
-    height: 437px;
-    width: 100vw;
-    padding-top: 2rem;
-}
-
-.card-integrate {
+  
+  .col-integrate {
+    /*max-width: 487px;*/
+    /*height: 307px;*/
+   /* padding-left: 9rem;*/
+   margin-left: 7rem;
+   background-color: #bbc8eb;
+  }
+  
+  .col-img-integrate {
+    margin-left: 6rem;
+    /*padding-left: 9rem;*/
+    /*height: 593px;*/
+    padding-left: 1rem;
+  }
+  
+  .img-fluid-integrate {
+   /*max-width: 690px;*/
+    /*height: 437px;*/
+    /*width: 100vw;*/
+    /*margin-top: 4rem;*/
+    padding-bottom: 4rem;
+  }
+  
+  .card-integrate {
      background-color: #bbc8eb;
-}
+  }
+  
+  .card-body-img-integrate {
+    max-width: 690px;
+    min-width: none;
+     /*height: 437px;*/
+     /*width: 100vw;*/
+     /*margin-top: 4rem;*/
+  }
+  
+  .row-integrate {
+  background-color: #bbc8eb;
+  /*min-height: 593px;*/
+  }
+  
 
 /*Section Powering*/
 
