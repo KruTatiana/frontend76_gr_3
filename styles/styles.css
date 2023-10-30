@@ -452,11 +452,6 @@ min-width: 80vw;
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 980px) {
-  .man-block{
-    display: none;
-  }
-}
 
 /*Section Flexible*/
 
@@ -797,6 +792,7 @@ min-width: 80vw;
       .btncolumn123 {
         font-size: 20px;
       }
+    
 /*Header*/
 .dws-menu{
   overflow: hidden;
@@ -939,6 +935,12 @@ padding-left:5% ;
 
 
 /*Section Powering*/
+
+@media screen and (max-width: 980px) {
+  .man-block{
+    display: none;
+  }
+}
 
 /*Section Flexible*/
 
