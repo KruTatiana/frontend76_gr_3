@@ -936,11 +936,11 @@ padding-left:5% ;
 
 /*Section Powering*/
 
-@media screen and (max-width: 980px) {
+
   .man-block{
     display: none;
   }
-}
+
 
 /*Section Flexible*/
 
