@@ -14,22 +14,23 @@ header {
   margin: 15px;
 }
 /* добавляем отступы между ссылками, регулируем размер шрифта*/
-a {
+/*a {
   margin: 15px;
   font-size: 0,5 rem;
-}
+}*/
 
 .logo{
   justify-content: end;
   margin-top: 5px;
 }
-button {
+
+/*button {
   background-color: rgb(5, 5, 172);
   float: right;
   width: 22%;
   border-radius: 7px;
   color: rgb(228, 235, 240);
-  font-size: 1em;
+  font-size: 1em;*/
 }
 .container-laod{
   text-align: end;
@@ -70,14 +71,14 @@ button {
 }
 
 /*Section The best video*/
-p {
+/*p {
   text-align: center;
   font-family: Inter;
-}
-h2 {
+}*/
+/*h2 {
   text-align: center;
   font-family: Inter;
-}
+}*/
 .block{
   display: flex;
   justify-content: space-between;
