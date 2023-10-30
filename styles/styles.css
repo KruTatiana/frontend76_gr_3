@@ -92,7 +92,7 @@ p {
       }
     button:hover {
         background-color: #aaa;
-
+    }
 
 /*Section Collaborate 2M*/
 
@@ -115,15 +115,16 @@ p {
 /*Footer*/
 
 /*Адаптив для mobile*/
-/* Скрываем в дескопт версии выпадающий блок меню*/
 
-@media screen and (min-width: 376px) {
+/*Header*/ /* Скрываем в дескопт версии выпадающий блок меню*/
+
+@media screen and (min-width: 376px) { 
+
 .dws-menu {
 display: none;
     }
 } 
 
-/*Header*/
 @media screen and (max-width: 375px) {
 .dws-menu{
     overflow: hidden;
@@ -137,7 +138,7 @@ display: none;
     
 .header-wrap{
         display: none;
-
+    }
 .container-laod {
     display: none;
      } 
