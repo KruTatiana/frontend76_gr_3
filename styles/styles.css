@@ -258,6 +258,7 @@ min-width: 80vw;
 
 .container-specials {
     padding-bottom: 4rem;
+    padding-top: 7rem;
 }
 
 .card-title-specials {
@@ -292,14 +293,13 @@ min-width: 80vw;
 
 .container-fluid-integrate  {
     padding-top: 4rem;
-    background-color: rgba(0, 95, 236, 0.05);
-    /*min-width: 600px;*/
-    /*height: 40vw;*/
+    background-color: rgba(0, 95, 236, 0.05);      
   }
   
   .card-body-integrate {
     color: #18216D;
     padding-left: 0;
+    padding-right: 0;
     padding-top: 4rem;
     height: 30%;
     background-color: rgba(0, 95, 236, 0.05);
@@ -329,44 +329,29 @@ min-width: 80vw;
     }
   
   .col-integrate {
-    /*max-width: 487px;*/
-    /*height: 307px;*/
-   /* padding-left: 9rem;*/
-   margin-left: 7rem;
-   /*background-color: rgba(0, 95, 236, 0.05);*/
+   padding-right: 0;
+   margin-left: 4%;
   }
   
   .col-img-integrate {
-    margin-left: 6rem;
-    /*padding-left: 9rem;*/
-    /*height: 593px;*/
-    padding-left: 1rem;
+    margin-left: 3%;
   }
   
   .img-fluid-integrate {
-   /*max-width: 690px;*/
-    /*height: 437px;*/
-    /*width: 100vw;*/
-    /*margin-top: 4rem;*/
+  min-width: 690px;
+    min-height: 437px;
     padding-bottom: 4rem;
-  }
-  
-  .card-integrate {
-    /*background-color: rgba(0, 95, 236, 0.05);*/
+    max-width: 40vw;
   }
   
   .card-body-img-integrate {
     max-width: 690px;
     min-width: none;
-     /*height: 437px;*/
-     /*width: 100vw;*/
-     /*margin-top: 4rem;*/
   }
   
   .row-integrate {
-  /*background-color: rgba(0, 95, 236, 0.05);*/
- 
-  /*min-height: 593px;*/
+        max-width: 95%;
+        margin: 0 auto; 
   }
 
 
@@ -816,7 +801,6 @@ min-width: 80vw;
           .container-fluid-integrate  {
             padding-top: 1rem;
           }
-
         } 
 
 /*Header*/
@@ -865,10 +849,11 @@ input.toggleMenu:checked ~ ul {
     }
 /*Main*/
 
-.container {
-    max-width: 95%;
+
+.container {         
+    max-width: 85%;
     margin: 0 auto; 
-}
+} 
 
 /*Section The best video*/
 .block{
