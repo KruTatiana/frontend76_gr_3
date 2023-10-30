@@ -5,16 +5,9 @@
 
 
 /*Main*/
-.body {
-    font-family: 'Inter', sans-serif;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
 
 /*Section The best video*/
+
 
 
 /*Section Collaborate 2M*/
@@ -38,10 +31,9 @@
 /*Footer*/
 
 /*Адаптив для mobile*/
-@media screen and (max-width: 375px) {
+
     
 /*Header*/
-
 
 /*Main*/
 
