@@ -44,7 +44,7 @@ button {
 .dws-menu {
   display: none;
   }
-  
+
 .dws-menu [type="checkbox"] {
 display: none;
 }
@@ -72,9 +72,11 @@ display: none;
 /*Section The best video*/
 p {
   text-align: center;
+  font-family: Inter;
 }
 h2 {
   text-align: center;
+  font-family: Inter;
 }
 .block{
   display: flex;
@@ -825,14 +827,6 @@ input.toggleMenu:checked ~ ul {
     max-width: 95%;
     margin: 0 auto; 
 }
-.box1{
-  grid-area: box1; 
-
-}
-.box2{
-    grid-area: box2;
-  
-}
 
 /*Section The best video*/
 .block{
@@ -842,6 +836,12 @@ input.toggleMenu:checked ~ ul {
   padding: 1em;
   width: 100%;
 }
+.box1{
+  grid-area: box1; 
+
+}
+.box2{
+    grid-area: box2;
 
 /*Section Collaborate 2M*/
 .container_collaborate_2m{
