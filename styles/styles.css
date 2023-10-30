@@ -194,8 +194,6 @@ min-width: 80vw;
     opacity: 0.6;
 }
 
-/*Section Integrate*/
-
 .container-fluid-integrate  {
     padding-top: 4rem;
     background-color: #bbc8eb;
@@ -274,6 +272,8 @@ min-width: 80vw;
   /*min-height: 593px;*/
   }
   
+
+/*Section Integrate*/
 
 
 /*Section Powering*/
@@ -365,12 +365,6 @@ min-width: 80vw;
 .man-btn:hover{
   background-color: #0a58ca;
   transform: scale(1.2);
-}
-
-@media screen and (max-width: 980px) {
-  .man-block{
-    display: none;
-  }
 }
 
 /*Section Flexible*/
@@ -812,6 +806,11 @@ padding-left:5% ;
 
 /*Section Powering*/
 
+@media screen and (max-width: 980px) {
+  .man-block{
+    display: none;
+  }
+}
 
 /*Section Flexible*/
 
