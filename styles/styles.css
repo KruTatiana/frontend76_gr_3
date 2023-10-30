@@ -843,6 +843,7 @@ input.toggleMenu:checked ~ ul {
 }
 .box2{
     grid-area: box2;
+}
 
 /*Section Collaborate 2M*/
 .container_collaborate_2m{
