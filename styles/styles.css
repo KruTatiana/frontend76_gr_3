@@ -25,11 +25,16 @@
 
 .container_collaborate_2m{
   display: grid;
-  grid-template-columns: 980px 137px 190px;
-grid-template-rows:1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
+grid-template-rows:2.5fr 1.5fr;
+gap: 10%;
+width: 100vw;
+min-width: 80vw;
+
+
   }
 .Collaborate_text{
-  display: flex;
+  display:grid;
   color: var(--navy-blue, #18216D);
   font-family: Inter;
   font-size: 36px;
@@ -38,24 +43,25 @@ grid-template-rows:1fr 1fr;
   line-height: 50px;
   grid-column: 1/2;
   grid-row: 1/2;
-  width: 510px;
-  height: 150px;
-  margin-left: 215px;
+  margin-left: 15vw;
+ 
 }
 .company_logo_icons{
-  display: flex;
-  padding-top: 52px;
+  display: grid;
   grid-column: 1/4;
   grid-row: 2/3;
+  margin-left: 20vw;
   flex-shrink: 0;
-  margin-left: 245px;
+  max-width: 70vw;
+  margin-top: 2%;
+  grid-auto-flow: column;
+
+
 } 
-.company_logo_icons img{
-  margin-right: 80px;
-}
+
 #Airbnb{
-  width: 112.121px;
-  height: 34.882px;
+  width: 104.646px;
+  height: 29.899px;
   flex-shrink: 0;
 }
 #Hubspot{
@@ -89,6 +95,8 @@ grid-template-rows:1fr 1fr;
   align-items: flex-start;
   grid-column: 2/3;
   grid-row: 1/2;
+  padding-left: 30%;
+
 }
 .active_downloads_text{
   color: var(--navy-blue, #18216D);
@@ -105,7 +113,7 @@ grid-template-rows:1fr 1fr;
   align-items: flex-start;
   grid-column: 3/4;
   grid-row: 1/2;
-  padding-left: 93px;
+  margin-left: -7vw;;
 }
 .Rating_number{
   color: var(--navy-blue, #18216D);
@@ -187,18 +195,21 @@ grid-template-rows:1fr 1fr;
 }
 
 .container-fluid-integrate  {
-    padding-top: 2rem;
+    padding-top: 4rem;
     background-color: #bbc8eb;
-     
-}
-
-.card-body-integrate {
+    /*min-width: 600px;*/
+    /*height: 40vw;*/
+  }
+  
+  .card-body-integrate {
     color: #18216D;
     padding-left: 0;
     padding-top: 4rem;
-}
-
-.btn-integrate {
+    height: 30%;
+    background-color: #bbc8eb;
+  }
+  
+  .btn-integrate {
     width: 160px;
     height: 52px;
     font-weight: 500;
@@ -206,43 +217,61 @@ grid-template-rows:1fr 1fr;
     line-height: 20.57px;
     padding-top: 1rem;
     margin-top: 2rem;
-}
-
-.card-text-integrate {
+  }
+  
+  .card-text-integrate {
     padding-top: 1rem;
     font-weight: 400;
     font-size: 16px;
-    width: 487px;
-}
-
-.card-title-integrate {
+    max-width: 487px;
+  }
+  
+  .card-title-integrate {
     font-weight: 600;
     font-size: 36px;
-    width: 471px;
+    max-width: 471px;
     }
-
-.col-integrate {
-    width: 487px;
-    height: 307px;
-    padding-left: 9rem;
-}
-
-.col-img-integrate {
-    margin-left: 4rem;
-    padding-left: 9rem;
-    height: 593px;
-}
-
-.img-fluid-integrate {
-    max-width: 690px;
-    height: 437px;
-    width: 100vw;
-    padding-top: 2rem;
-}
-
-.card-integrate {
+  
+  .col-integrate {
+    /*max-width: 487px;*/
+    /*height: 307px;*/
+   /* padding-left: 9rem;*/
+   margin-left: 7rem;
+   background-color: #bbc8eb;
+  }
+  
+  .col-img-integrate {
+    margin-left: 6rem;
+    /*padding-left: 9rem;*/
+    /*height: 593px;*/
+    padding-left: 1rem;
+  }
+  
+  .img-fluid-integrate {
+   /*max-width: 690px;*/
+    /*height: 437px;*/
+    /*width: 100vw;*/
+    /*margin-top: 4rem;*/
+    padding-bottom: 4rem;
+  }
+  
+  .card-integrate {
      background-color: #bbc8eb;
-}
+  }
+  
+  .card-body-img-integrate {
+    max-width: 690px;
+    min-width: none;
+     /*height: 437px;*/
+     /*width: 100vw;*/
+     /*margin-top: 4rem;*/
+  }
+  
+  .row-integrate {
+  background-color: #bbc8eb;
+  /*min-height: 593px;*/
+  }
+  
 
 /*Section Integrate*/
 
@@ -693,8 +722,9 @@ grid-template-rows:1fr 1fr;
 
 /*Section Collaborate 2M*/
 .container_collaborate_2m{
-  grid-template-columns: 186px 186px;
-grid-template-rows: 150px 80px 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  gap: 0;
   }
 .Collaborate_text{
   font-size: 20px;
@@ -708,15 +738,18 @@ grid-template-rows: 150px 80px 80px;
 .active_downloads{
   grid-column: 1/2;
   grid-row: 2/3;
-  align-items: flex-start;
-  margin-left: 100px;
+  padding-left: 25vw;
+  padding-top: 3vh;
+
 }
 .Rating{
   grid-column: 2/3;
   grid-row: 2/3;
-  align-items: flex-start;
-  margin-left: 65px;
-  padding-left: 0px;
+  padding-top: 3vh;
+  padding-left: 7vw;
+  margin-left: 0vw;
+ 
+
 }
 .Rating_number{
   font-size: 40px;
@@ -736,13 +769,15 @@ grid-template-rows: 150px 80px 80px;
   height: 45%;
 }
 .company_logo_icons{
-  margin-left: 22px;
   grid-column: 1/3;
   grid-row: 3/4;
-  padding-top: 65px;
+ margin-left: 0vw;
+ max-width: 100vw;
+ margin-top: 7%;
+
 } 
 .company_logo_icons img{
-  margin-right: 36.5px;
+padding-left:5% ;
 }
 #Airbnb{
   width: 51.429px;
