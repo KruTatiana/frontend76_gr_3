@@ -41,6 +41,10 @@ button {
   flex-basis: 60%;
 }
 
+.dws-menu {
+  display: none;
+  }
+  
 .dws-menu [type="checkbox"] {
 display: none;
 }
