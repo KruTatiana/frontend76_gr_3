@@ -683,7 +683,7 @@ min-width: 80vw;
 /*Footer*/
 
 /*Адаптив для mobile*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     
       .container-fluid-integrate  {
         display: none;
