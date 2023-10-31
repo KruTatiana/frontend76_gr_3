@@ -661,7 +661,7 @@ min-width: 80vw;
   text-align: center;
   }
  
- .reating-arkows label .trianglesusing:after {
+.reating-arkows label .trianglesusing:after {
   content: attr(data-unchecked);
   position: absolute;
   z-index: 5;
@@ -675,11 +675,11 @@ min-width: 80vw;
   color: rgba(119, 119, 119, 0.5);
  }
 
- .reating-arkows input[type="checkbox"]:focus ~ label .trianglesusing, .reating-arkows input[type="checkbox"]:hover ~ label .trianglesusing {
+.reating-arkows input[type="checkbox"]:focus ~ label .trianglesusing, .reating-arkows input[type="checkbox"]:hover ~ label .trianglesusing {
   background-color: rgba(0, 95, 236, 0.1);
  }
 
- .reating-arkows input[type="checkbox"]:focus ~ label .trianglesusing:after, .reating-arkows input[type="checkbox"]:hover ~ label .trianglesusing:after {
+.reating-arkows input[type="checkbox"]:focus ~ label .trianglesusing:after, .reating-arkows input[type="checkbox"]:hover ~ label .trianglesusing:after {
   color: rgba(0, 95, 236, 1);
  }
 
@@ -687,49 +687,49 @@ min-width: 80vw;
   color: rgba(0, 95, 236, 1);
  }
 
- .reating-arkows input[type="checkbox"]:checked ~ label:hover {
+.reating-arkows input[type="checkbox"]:checked ~ label:hover {
   color: rgba(0, 95, 236, 1);
  }
 
- .reating-arkows input[type="checkbox"]:checked:focus ~ label .trianglesusing, .reating-arkows input[type="checkbox"]:checked:hover ~ label .trianglesusing {
+.reating-arkows input[type="checkbox"]:checked:focus ~ label .trianglesusing, .reating-arkows input[type="checkbox"]:checked:hover ~ label .trianglesusing {
   background-color: rgba(0, 95, 236, 0.1);
  }
 
- .reating-arkows input[type="checkbox"]:checked:focus ~ label .trianglesusing:after, .reating-arkows input[type="checkbox"]:checked:hover ~ label .trianglesusing:after {
+.reating-arkows input[type="checkbox"]:checked:focus ~ label .trianglesusing:after, .reating-arkows input[type="checkbox"]:checked:hover ~ label .trianglesusing:after {
   color: rgba(0, 95, 236, 1);
  }
 
- .reating-arkows label .trianglesusing {
+.reating-arkows label .trianglesusing {
   -webkit-transition: background-color 0.3s cubic-bezier(0, 1, 0.5, 1);
   transition: background-color 0.3s cubic-bezier(0, 1, 0.5, 1);
   background: rgba(0, 95, 236, 0.1);
  }
 
- .reating-arkows label .trianglesusing:before {
+.reating-arkows label .trianglesusing:before {
   color:  rgba(24, 33, 109, 1);
  }
 
- .reating-arkows label .trianglesusing:after {
+.reating-arkows label .trianglesusing:after {
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 1, 0.5, 1);
   transition: transform 0.3s cubic-bezier(0, 1, 0.5, 1);
   color: rgba(0, 95, 236, 1);
  }
 
- .reating-arkows input[type="checkbox"]:checked ~ label .trianglesusing:after {
+.reating-arkows input[type="checkbox"]:checked ~ label .trianglesusing:after {
   -webkit-transform: translate3d(124px, 0, 0);
   transform: translate3d(124px, 0, 0);
  }
 
- .reating-arkows label {
+.reating-arkows label {
   font-size: 14px;
  }
 
- .reating-arkows label .trianglesusing {
+.reating-arkows label .trianglesusing {
   height: 60px;
   border-radius: 6px;
  }
 
- .reating-arkows label .trianglesusing:before {
+.reating-arkows label .trianglesusing:before {
   left: 135px;
   width: 135px;
   padding: 6px 12px;
@@ -738,7 +738,7 @@ min-width: 80vw;
   line-height: 48px;
  }
 
- .reating-arkows label .trianglesusing:after {
+.reating-arkows label .trianglesusing:after {
   top: 6px;
   left: 6px;
   border-radius: 6px;
@@ -748,7 +748,7 @@ min-width: 80vw;
   font-weight: bold;
  }
 
- .reating-arkows label .trianglesusing:hover:after {
+.reating-arkows label .trianglesusing:hover:after {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
  }
 
@@ -756,6 +756,144 @@ min-width: 80vw;
 
 
 /*Footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80% 20%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.footer_content {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 25% 1fr 1fr 1fr 25%;
+  grid-template-rows: 20% 60% 20%;
+  border-bottom: 1px solid rgba(24, 33, 109, 0.1);
+}
+
+.foot_logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: start;
+}
+
+.foot_header1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: start;
+  color: rgba(24, 33, 109, 1);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.foot_header2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  justify-self: start;
+  color: rgba(24, 33, 109, 1);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.foot_header3 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  justify-self: start;
+  color: rgba(24, 33, 109, 1);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.foot_header4 {
+  grid-column: 5/6;
+  grid-row: 1/2;
+  justify-self: start;
+  color: rgba(24, 33, 109, 1);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.foot_logo_content {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-areas: 'term'
+                        'links';
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.foot_logo_content>p {
+  grid-area: term;
+  width: 90%;
+}
+
+.foot_logo_apps {
+  grid-area: links;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.foot_logo_apps>a:first-of-type {
+  margin-right: 5%;
+}
+
+.footer_resources {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.footer_product {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.footer_more {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.footer_contact {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgba(24, 33, 109, 0.9);
+}
+
+.footer_bottom {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
+  margin: 0 auto;
+}
+
+.footer_bottom_content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  color: rgba(24, 33, 109, 0.8);
+}
+
 
 /*Адаптив для шрифтов*/
 
@@ -767,7 +905,7 @@ min-width: 80vw;
 
     .card-body-integrate {
           padding-top: 1rem;
-     }
+    }
     
     .col-img-integrate {
       display: none;
@@ -981,5 +1119,8 @@ padding-left:5% ;
 
 /*Footer*/
 
+.footer {
+  display: none;
+}
 
 }
