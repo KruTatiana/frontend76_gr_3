@@ -32,6 +32,7 @@ header {
   color: rgb(228, 235, 240);
   font-size: 1em;
 }*/
+
 .container-laod{
   text-align: end;
   flex-basis: 30%;
@@ -71,11 +72,11 @@ header {
 }
 
 /*Section The best video*/
-/*p {
+/*p .tekst{
   text-align: center;
   font-family: Inter;
 }*/
-/*h2 {
+/*h2 .titel{
   text-align: center;
   font-family: Inter;
 }*/
@@ -257,6 +258,7 @@ min-width: 80vw;
 
 .container-specials {
     padding-bottom: 4rem;
+    padding-top: 7rem;
 }
 
 .card-title-specials {
@@ -286,19 +288,21 @@ min-width: 80vw;
     opacity: 0.6;
 }
 
+
+/*Section Integrate*/
+
 .container-fluid-integrate  {
     padding-top: 4rem;
-    background-color: #bbc8eb;
-    /*min-width: 600px;*/
-    /*height: 40vw;*/
+    background-color: rgba(0, 95, 236, 0.05);      
   }
   
   .card-body-integrate {
     color: #18216D;
     padding-left: 0;
+    padding-right: 0;
     padding-top: 4rem;
     height: 30%;
-    background-color: #bbc8eb;
+    background-color: rgba(0, 95, 236, 0.05);
   }
   
   .btn-integrate {
@@ -315,57 +319,41 @@ min-width: 80vw;
     padding-top: 1rem;
     font-weight: 400;
     font-size: 16px;
-    max-width: 487px;
+    width: 487px;
   }
   
   .card-title-integrate {
     font-weight: 600;
     font-size: 36px;
-    max-width: 471px;
+    width: 471px;
     }
   
   .col-integrate {
-    /*max-width: 487px;*/
-    /*height: 307px;*/
-   /* padding-left: 9rem;*/
-   margin-left: 7rem;
-   background-color: #bbc8eb;
+   padding-right: 0;
+   margin-left: 4%;
   }
   
   .col-img-integrate {
-    margin-left: 6rem;
-    /*padding-left: 9rem;*/
-    /*height: 593px;*/
-    padding-left: 1rem;
+    margin-left: 3%;
   }
   
   .img-fluid-integrate {
-   /*max-width: 690px;*/
-    /*height: 437px;*/
-    /*width: 100vw;*/
-    /*margin-top: 4rem;*/
+  min-width: 690px;
+    min-height: 437px;
     padding-bottom: 4rem;
-  }
-  
-  .card-integrate {
-     background-color: #bbc8eb;
+    max-width: 40vw;
   }
   
   .card-body-img-integrate {
     max-width: 690px;
     min-width: none;
-     /*height: 437px;*/
-     /*width: 100vw;*/
-     /*margin-top: 4rem;*/
   }
   
   .row-integrate {
-  background-color: #bbc8eb;
-  /*min-height: 593px;*/
+        max-width: 95%;
+        margin: 0 auto; 
   }
-  
 
-/*Section Integrate*/
 
 
 /*Section Powering*/
@@ -794,7 +782,27 @@ min-width: 80vw;
       .btncolumn123 {
         font-size: 20px;
       }
+    }
+
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+
+        .col-integrate {
+            margin-left: 1rem;
+          }
+
+          .card-body-integrate {
+                padding-top: 1rem;
+           }
+          
+          .col-img-integrate {
+            display: none;
+          }
     
+          .container-fluid-integrate  {
+            padding-top: 1rem;
+          }
+        } 
+
 /*Header*/
 .dws-menu{
   display: block;
@@ -841,10 +849,11 @@ input.toggleMenu:checked ~ ul {
     }
 /*Main*/
 
-.container {
-    max-width: 95%;
+
+.container {         
+    max-width: 85%;
     margin: 0 auto; 
-}
+} 
 
 /*Section The best video*/
 .block{
