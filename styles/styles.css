@@ -1046,7 +1046,7 @@ margin-left: 37%;
 }
 .Rating{
   margin-top: 10%;
-  margin-left: 37%;
+  margin-left: 30%;
 }
 .Rating_number{
   color: var(--navy-blue, #18216D);
@@ -1076,11 +1076,17 @@ margin-left: 37%;
   height: 45%;
 }
 .company_logo_icons{
+  display: flex;
   max-width: 100%;
   margin-top: 7%;
-    display: grid;
     flex-shrink: 0;  
+    justify-content: flex-start;
+    margin-left: 0%;
 } 
+.container_Collaborate_text{
+  display: flex;
+  justify-content: center;
+}
 
 #Airbnb{
   width: 51.429px;
