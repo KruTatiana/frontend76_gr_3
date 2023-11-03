@@ -442,6 +442,10 @@ button:hover {
   transform: scale(1.2);
 }
 
+.img-section{
+  display: flex;
+}
+
 /*Section Flexible*/
 
 .flexible {
@@ -1168,6 +1172,10 @@ box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
 
     .img-section {
       display: none;
+    }
+    
+    .man-block {
+      justify-content: flex-start;
     }
 
   }
