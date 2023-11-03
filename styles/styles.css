@@ -367,8 +367,8 @@ button:hover {
 }
 
 .man{
-  width: 400px;
-  height: 450px;
+  width: 450px;
+  height: 490px;
 }
 
 .man-textarea {
@@ -391,25 +391,25 @@ button:hover {
 }
 
 .img-section {
-  right: 200px;
+  right: 150px;
   position: relative;
 }
 
 .img-section .points{
-  width: 106px;
-  height: 102px;
+  width: 130px;
+  height: 133px;
   position: relative;
-  bottom: -380px;
-  left: 50px;
+  bottom: -397px;
+  left: 62px;
   z-index: -1;
 }
 
 .img-section .message{
-  width: 184px;
-  height: 150px;
+  width: 250px;
+  height: 210px;
   position: relative;
-  bottom: -360px;
-  right: 100px;
+  bottom: -375px;
+  right: 125px;
 }
 
 .man-ratio{
