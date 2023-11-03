@@ -366,10 +366,6 @@ button:hover {
   color: #18216D;
 }
 
-.img-section{
-  display: flex;
-}
-
 .man{
   width: 400px;
   height: 450px;
@@ -1169,6 +1165,11 @@ box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
     .payment_figure_button {
       font-size: 0.8rem;
     }
+
+    .img-section {
+      display: none;
+    }
+
   }
 
   /*Адаптив для mobile общий*/
