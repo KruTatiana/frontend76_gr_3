@@ -33,6 +33,210 @@
 
 
 /*Section Testimonial*/
+.feedback {
+width: 100%;    
+height: 650px;
+position: relative;
+background: #FAFAFA;
+display: flex;
+flex-direction: row;
+/* No text styles in this selection */
+}    
+
+.f-box {
+position: relative;
+width: 100%;
+height: 100%;
+}
+/* Testimonial */
+.testimonial-1 {
+display: flex;
+color: #18216D; 
+font-size: 48px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;;
+word-wrap: break-word;
+margin-bottom: 55px;
+margin-top: 140px;
+}
+
+/* Here are many variations of passag Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words don't look even slightly believable. */
+.text-linie {
+display: flex;
+color: #18216D;
+width: 614px;
+height: 176px;
+opacity: 0.90;
+top: 0px;
+font-family: Inter;
+font-size: 24px;
+font-style: italic;
+font-weight: 500;
+line-height: 44px; /* 183.333% */
+}
+
+.small-box {
+position: relative;
+width: 127px;
+height: 58px;
+flex-shrink: 0;
+top: 33px;
+left: 0px;
+}
+/* Cris Gayle */
+.text-cris {
+display: flex;
+color: #18216D;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 100% */
+word-wrap: break-word;
+}
+
+/* Manager */
+.text-manager {
+display: flex;
+color: #18216D;
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+word-wrap: break-word
+}
+
+/* No text styles in this selection */
+.fotobox {
+display: flex;
+position: relative;
+margin-top: 100px;
+font-size: 77px;
+width: 447.589px;
+height: 450px;
+flex-shrink: 0;
+border-radius: 77.143px;
+}
+
+/* Ellipse small 175 */
+.ellipse-175 {
+display: block;
+position: absolute;
+width: 229.82px;
+height: 229.82px;
+left: 110.89px;
+top: 108.48px;
+border-radius: 9999px;
+border: 1px black solid;
+flex-shrink: 0;
+}
+
+/* Ellipse big 176 */
+.ellipse-176 {
+display: block;
+position: absolute;
+width: 388.93px;
+height: 388.93px;
+left: 31.34px;
+top: 28.93px;
+border-radius: 9999px;
+border: 1px black solid;
+flex-shrink: 0;
+}
+
+/* image 177 */
+.ellipse_177 {
+width: 77,14px;
+height: 77,14px;
+position: absolute;
+left: 173,57px;
+top: 372,86px;
+flex-shrink: 0;
+border-radius: 77.143px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 178 */
+.ellipse_178 {
+width: 77.143px;
+height: 77.143px;
+position: absolute;
+flex-shrink: 0;
+border-radius: 77.143px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 179 */
+.ellipse_179 {
+width: 77.143px;
+height: 77.143px;
+position: absolute;
+flex-shrink: 0;
+border-radius: 77.143px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 180 */
+.ellipse_180 {
+width: 77.143px;
+height: 77.143px;
+position: absolute;
+flex-shrink: 0;
+border-radius: 77.143px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 181 */
+.ellipse_181 {
+width: 51.429px;
+height: 51.429px;
+position: absolute;
+flex-shrink: 0;
+border-radius: 51.429px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 182 */
+.ellipse_182 {
+width: 51.429px;
+height: 51.429px;
+flex-shrink: 0;
+position: absolute;
+border-radius: 51.429px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 183 */
+.ellipse_183 {
+width: 51.429px;
+height: 51.429px;
+flex-shrink: 0;
+position: absolute;
+border-radius: 51.429px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
+/* image 184 */
+.ellipse_184 {
+width: 51.429px;
+height: 51.429px;
+flex-shrink: 0;
+position: absolute;
+border-radius: 51.429px;
+border: 2px solid #FFF;
+box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
+}
+
 
 
 /*Footer*/
@@ -69,6 +273,9 @@
 
 
 /*Section Testimonial*/
+.testimonial {
+    display: none;
+}
 
 
 /*Footer*/
