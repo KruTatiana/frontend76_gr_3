@@ -1185,9 +1185,8 @@ box-shadow: 0px 8px 20px 0px rgba(1, 0, 81, 0.10);
 @media screen and (max-width: 500px) {
     
 /*Header*/
-img{
-  width: 95%;
-  margin-top: 10%;
+.img1{
+  width: 100%;
 }
 .titel-1{
   width: 95%;
