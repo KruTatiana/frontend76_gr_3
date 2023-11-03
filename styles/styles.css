@@ -371,6 +371,11 @@ button:hover {
   height: 450px;
 }
 
+.man-textarea {
+  right: 25px;
+  position: relative;
+}
+
 .man-textarea .man-title{
   width: 496px;
   height: 96px;
@@ -383,6 +388,11 @@ button:hover {
   height: 90px;
   font-size: 16px;
   font-weight: 500;
+}
+
+.img-section {
+  right: 200px;
+  position: relative;
 }
 
 .img-section .points{
