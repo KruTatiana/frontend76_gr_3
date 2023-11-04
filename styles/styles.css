@@ -302,7 +302,7 @@ button:hover {
     color: #18216D;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 4rem;
+    padding-top: 12%;
     height: 30%;
     background-color: rgba(0, 95, 236, 0.05);
   }
@@ -1214,6 +1214,202 @@ filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
     }
 
   }
+
+  @media screen and (min-width: 2100px) {
+
+   .card-text-integrate {
+    font-size: 30px;
+    width: 800px;
+  }
+  
+  .card-title-integrate {
+    font-size: 45px;
+    width: 600px;
+    }
+
+      .img-fluid-integrate {
+        width: 500px;
+        }
+
+.card-title-spedials {
+    font-size: 50px;
+    line-height:30px;
+}
+
+.column123 {
+    width: 500px;
+    height:350px;
+}
+
+.card-text-spedials {
+padding-top: 2rem;
+    font-size: 30px;
+    line-height:45px;
+}
+
+.card-img-top-column123 {
+    max-width: 90px;
+    height: 90px;
+}
+
+.btncolumn123 {
+    font-size: 30px;
+    padding-top: 1.5rem;
+}
+
+.card-title-specials {
+    font-size: 30px;
+    padding-top: 1rem;
+}
+
+.card-text-specials {
+    font-size: 25px;
+    padding-top: 1rem;
+}
+
+.container {
+    width: 75%;
+}
+
+.row-integrate {
+    width: 83%;
+}
+
+.card-body-integrate {
+    padding-top: 0;
+  }
+
+  .btn-integrate {
+    font-size: 20px;
+}
+
+
+.link-1 {
+    font-size: 1.7rem;
+  }
+  
+  .korb {
+    font-size: 1.5em;
+    }
+  
+    .titel-1{
+      font-size: 50px;
+    }
+  
+    .textp1 {
+      font-size: 30px;
+      padding-top: 1rem;
+    }
+  
+    .box1-button {
+      font-size: 20px;
+      }
+    
+      .Collaborate_text{
+        font-size: 45px;
+        padding-bottom: 2rem;
+      }
+  
+     .man-textarea .man-title {
+        font-size:45px;
+        width: 50%;
+      }
+  
+   .man-textarea .man-text{
+        font-size: 30px;
+      }
+  
+.man-ratio .checkmark-text {
+    font-size: 30px;
+  }
+  
+      .man-btn {
+        font-size: 20px;
+      }
+  
+      .flexible_header {
+        font-size: 45px;
+      }
+  
+      .flexible_content{
+        font-size: 30px;
+        padding-bottom: 10rem;
+      }
+  
+      .figure_name {
+        font-size: 30px;
+      }
+  
+      .figure_price {
+        font-size: 30px;
+      }
+  
+      .figure_bottom_item {
+        font-size: 20px;
+      }
+  
+      .payment_figure_button {
+        font-size: 20px;
+      }
+  
+      .testimonial-1 {
+        font-size: 50px;
+      }
+  
+      .text-linie  {
+        font-size: 30px;
+      }
+  
+      .text-cris {
+        font-size: 25px;
+        padding-top: 3rem;
+      }
+  
+      .text-manager {
+        font-size: 20px;
+      }
+  
+      .foot_logo_content {
+        font-size: 25px;
+      }
+  
+      .foot_header1 {
+        font-size: 30px;
+      }
+  
+      .footer_resources {
+        font-size: 20px;
+      }
+  
+      .foot_header2 {
+        font-size: 30px;
+      }
+  
+      .footer_product {
+        font-size: 20px;
+      }
+  
+      .foot_header3 {
+        font-size: 30px;
+      }
+  
+      .footer_more {
+        font-size: 20px;
+      }
+      
+      .foot_header4 {
+        font-size: 30px;
+      }
+  
+      .footer_contact {
+        font-size: 20px;
+      }
+  
+      .footer_bottom_content {
+        font-size: 20px;
+      }
+
+
 
   /*Адаптив для mobile общий*/
 
