@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 /*Body*/
 
 .body {
@@ -53,23 +52,6 @@ header {
 .dws-menu {
   display: none;
   }
-
-/*  .dws-menu [type="checkbox"] {
-    display: none;
-    }
-    .dws-menu label.toggleMenu{
-      display: block;
-      cursor: pointer;
-      position: relative;
-      margin: 14px;
-      }
-    
-    .dws-menu label.toggleMenu .fa {
-      position: absolute;
-      top: 15px;
-      left: 12px;
-      font-size: 18px;
-    }*/
 
 /*Main*/
 
