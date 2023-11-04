@@ -2,97 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /*Header*/
-header {
-    display: flex;
-    margin: 15px;
-}
-/* добавляем отступы между ссылками, регулируем размер шрифта*/
-a {
-    margin: 15px;
-    font-size: 0,5 rem;
-}
-
-.logo{
-    justify-content: end;
-    margin-top: 5px;
-}
-button {
-    background-color: rgb(5, 5, 172);
-    float: right;
-    width: 22%;
-    border-radius: 7px;
-    color: rgb(228, 235, 240);
-    font-size: 1em;
-}
-.container-laod{
-    text-align: end;
-    flex-basis: 30%;
-    margin-top: 15px;
-}
-.header-wrap{
-    display: flex;
-    flex-basis: 60%;
-}
-
-.dws-menu [type="checkbox"] {
-display: none;
-}
-.dws-menu label.toggleMenu{
-    display: block;
-    cursor: pointer;
-    position: relative;
-    margin: 14px;
-    }
-
-.dws-menu label.toggleMenu .fa {
-    position: absolute;
-    top: 15px;
-    left: 12px;
-    font-size: 18px;
-}
 
 /*Main*/
 
 /*Section The best video*/
-p {
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  .block{
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    box-sizing: border-box;
-  }
-  
-  .box1{
-    flex-basis: 50%;
-    float: left;
-    position: relative;
-    color: rgb(8, 8, 100);
-    margin: 2px;
-  }
-  
-  .box2{
-    flex-basis: 50%;
-    float: right;
-    display: block;
-    margin: 2px;
-  }
-  .box-button {
-    background-color: aqua;
-    color: rgb(3, 3, 133);
-    border-radius: 7px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    width: 25%;
-      }
-    button:hover {
-        background-color: #aaa;
-    }
+
 
 /*Section Collaborate 2M*/
 
@@ -116,67 +30,18 @@ p {
 
 /*Адаптив для mobile*/
 
-/*Header*/ /* Скрываем в дескопт версии выпадающий блок меню*/
+/*Header*/
 
-@media screen and (min-width: 376px) { 
-
-.dws-menu {
-display: none;
-    }
-} 
 
 @media screen and (max-width: 375px) {
-.dws-menu{
-    overflow: hidden;
-        }
-.dws-menu ul{
-    display: none;
-    }
-    label{
-    margin-left: auto;
-    }
-    
-.header-wrap{
-        display: none;
-    }
-.container-laod {
-    display: none;
-     } 
 
-input.toggleMenu:checked + label.toggleMenu {
-    background: #000;
-    color: #fff;
-    }
-
-input.toggleMenu:checked ~ ul {
-        display: block;
-        float: center;
-        }
-}
 
 /*Main*/
 
-.container {
-    max-width: 95%;
-    margin: 0 auto; 
-}
+
 
 /*Section The best video*/
-.block{
-    display: grid;
-    grid-template-areas: "box1" 
-                         "box2"; 
-    padding: 1em;
-    width: 100%;
-  }
-  .box1{
-    grid-area: box1; 
-  
-  }
-  .box2{
-      grid-area: box2;
-    
-  }
+
 
 /*Section Collaborate 2M*/
 
