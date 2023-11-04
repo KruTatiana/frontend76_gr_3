@@ -136,7 +136,6 @@ button:hover {
 
 /*Section Collaborate 2M*/
 
-@media screen and (min-width: 501px) {
   .container_2m_mobile{
     display: none;
   }
@@ -224,8 +223,6 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
-}
-
 }
 
 
@@ -891,7 +888,7 @@ position: absolute;
 left: 173.57px;
 top: 372.86px;
 flex-shrink: 0;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 178 */
@@ -902,7 +899,7 @@ left: 370.45px;
 top: 157.50px;
 position: absolute;
 flex-shrink: 0;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 179 */
@@ -913,7 +910,7 @@ position: absolute;
 left: 172.77px;
 top: -0px;
 flex-shrink: 0;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 180 */
@@ -924,8 +921,7 @@ position: absolute;
 left: -0px;
 top: 138.21px;
 flex-shrink: 0;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
-
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 181 */
@@ -936,7 +932,7 @@ position: absolute;
 left: 289.29px;
 top: 265.98px;
 flex-shrink: 0;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 182 */
@@ -947,7 +943,7 @@ flex-shrink: 0;
 position: absolute;
 left: 123.75px;
 top: 121.34px;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 183 */
@@ -958,7 +954,7 @@ left: 277.23px;
 top: 112.50px;
 flex-shrink: 0;
 position: absolute;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 /* image 184 */
@@ -969,7 +965,7 @@ flex-shrink: 0;
 position: absolute;
 left: 114.11px;
 top: 265.98px;
-filter: box-shadow: 0px 8px 20px rgba(1, 0, 81, 0.10);
+filter: drop-shadow(0px 8px 20px rgba(1, 0, 81, 0.10));
 }
 
 
@@ -1408,7 +1404,7 @@ padding-top: 2rem;
       .footer_bottom_content {
         font-size: 20px;
       }
-
+    }
 
 
   /*Адаптив для mobile общий*/
