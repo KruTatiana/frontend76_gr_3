@@ -53,7 +53,7 @@
 ## О проекте
 
 Макет проекта в Figma  
-[![Product Name Screen Shot][product-screenshot]](https://www.figma.com/file/wuUTMadXEF0pyFwmuJS8sb/Video-Conference?type=design&node-id=46-924&mode=design&t=wFt9c1Ak8Sbqf1W6-0 "Макет") 
+[![Product Name Screen Shot][product-screenshot]](https://www.figma.com/file/wuUTMadXEF0pyFwmuJS8sb/Video-Conference?type=design&node-id=46-924&mode=design&t=wFt9c1Ak8Sbqf1W6-0 "Макет")
 
 Это учебный проект по верстке сайта с макета Figma.
 
@@ -138,6 +138,7 @@ Project Link: [https://github.com/itgirlschool/frontend76_gr_3](https://github.c
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[product-screenshot]: ./img/Subtract.png
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
@@ -147,4 +148,5 @@ Project Link: [https://github.com/itgirlschool/frontend76_gr_3](https://github.c
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+
 

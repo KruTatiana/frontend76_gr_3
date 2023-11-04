@@ -1673,3 +1673,8 @@ flex-shrink: 0;
 }
 
 }
+
+@-moz-document url-prefix() {.man-title {margin-bottom: 10%;}
+.flexible_content {padding-top: 3%;
+padding-bottom: 3%;}
+}
