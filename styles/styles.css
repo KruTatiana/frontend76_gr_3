@@ -24,7 +24,7 @@ header {
 
 .logo{
   justify-content: end;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 2vw;
   margin-left: 3vw;
 }
@@ -1279,6 +1279,10 @@ padding-top: 2rem;
     font-size: 20px;
 }
 
+.logo1 {
+    width: 150%;
+    padding-top: 0.5rem;
+}
 
 .link-1 {
     font-size: 1.7rem;
@@ -1324,7 +1328,7 @@ padding-top: 2rem;
   .checkmark {
     margin-top: 1rem;
   }
-  
+
       .man-btn {
         font-size: 20px;
         margin-top: 1rem;
