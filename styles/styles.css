@@ -1308,19 +1308,26 @@ padding-top: 2rem;
   
      .man-textarea .man-title {
         font-size:45px;
-        width: 50%;
+        width: 100%;
       }
   
    .man-textarea .man-text{
         font-size: 30px;
+        width: 100%;
       }
   
 .man-ratio .checkmark-text {
     font-size: 30px;
+    margin-top: 1rem;
+  }
+
+  .checkmark {
+    margin-top: 1rem;
   }
   
       .man-btn {
         font-size: 20px;
+        margin-top: 1rem;
       }
   
       .flexible_header {
