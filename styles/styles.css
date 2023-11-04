@@ -357,7 +357,7 @@ button:hover {
 
 .man-block{
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   margin-top: 130px;
   margin-bottom: 189px;
   color: #18216D;
