@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="./img/Grouplogo2.png" alt="Logo" width="100" style="background-color:white; border-radius:6px">
+    <img src="./assets/png/Grouplogo2.png" alt="Logo" width="100" style="background-color:white; border-radius:6px">
   </a>
 
   <h3 align="center">Metting</h3>
@@ -78,10 +78,10 @@
 
 Здесь представлены инструменты. изученные нами в первом блоке обучения и использованные в работе.
 
-<img src="./img/HTML5_logo_and_wordmark_1.svg" alt="HTML5" width="135">  
-<img src="./img/CSS3_logo_and_wordmark.svg" alt="CSS3" width="100">
-<img src="./img/Figma-logo_1.svg" alt="Figma" width="85" styles="margin-right:2vw">
-<img src="./img/bootstrap-5-1.svg" alt="Bootstrap" width="120">
+<img src="./assets/svg/HTML5_logo_and_wordmark_1.svg" alt="HTML5" width="135">  
+<img src="./assets/svg/CSS3_logo_and_wordmark.svg" alt="CSS3" width="100">
+<img src="./assets/svg/Figma-logo_1.svg" alt="Figma" width="85" styles="margin-right:2vw">
+<img src="./assets/svg/Bootstrap-5-1.svg" alt="Bootstrap" width="120">
 
 
 
@@ -138,7 +138,7 @@ Project Link: [https://github.com/itgirlschool/frontend76_gr_3](https://github.c
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[product-screenshot]: ./img/Subtract.png
+[product-screenshot]: ./assets/png/Subtract.png
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
