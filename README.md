@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="krutatiana.github.io/frontend76_gr_3/"><img src="./assets/png/Grouplogo2.png" alt="Logo" width="100" style="background-color:white; border-radius:6px">
+    <a href="https://krutatiana.github.io/frontend76_gr_3/"><img src="./assets/png/Grouplogo2.png" alt="Logo" width="100" style="background-color:white; border-radius:6px">
   </a>
 
   <h3 align="center">Metting</h3>
